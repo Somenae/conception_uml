@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="nvNNmjStPw0KlI9uZULU">
+    <mxGraphModel dx="2377" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-5" value="Competition" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="200" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-6" value="- competitionld: int&lt;div&gt;- competitionCode: int&lt;/div&gt;&lt;div&gt;- name: string&lt;/div&gt;&lt;div&gt;- subtype: string&lt;/div&gt;&lt;div&gt;- type: string&lt;/div&gt;&lt;div&gt;- countryId: int&lt;/div&gt;&lt;div&gt;- countryName: string&lt;/div&gt;&lt;div&gt;- domesticLeagueCode: string&lt;/div&gt;&lt;div&gt;- confederation: string&lt;/div&gt;&lt;div&gt;- url: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-5">
+          <mxGeometry y="26" width="200" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-5">
+          <mxGeometry y="180" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-5">
+          <mxGeometry y="188" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-9" value="Club" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="160" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-10" value="- clubId: int&lt;div&gt;- clubCode: int&lt;/div&gt;&lt;div&gt;- name: string&lt;/div&gt;&lt;div&gt;- domesticCompetitionId: int&lt;/div&gt;&lt;div&gt;- totalMarketValue: float&lt;/div&gt;&lt;div&gt;- squadSize: int&lt;/div&gt;&lt;div&gt;- averageAge: float&lt;/div&gt;&lt;div&gt;- foreignerNumbers: int&lt;/div&gt;&lt;div&gt;- foreignerPercentage: float&lt;/div&gt;&lt;div&gt;- nationalTeamPlayers: int&lt;/div&gt;&lt;div&gt;- stadiumName: string&lt;/div&gt;&lt;div&gt;- stadiumSeats: int&lt;/div&gt;&lt;div&gt;- netTransferRecords: string&lt;/div&gt;&lt;div&gt;- coachName: string&lt;/div&gt;&lt;div&gt;- lastSeason: int&lt;/div&gt;&lt;div&gt;- url: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-9">
+          <mxGeometry y="26" width="160" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-9">
+          <mxGeometry y="270" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-9">
+          <mxGeometry y="278" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-13" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="650" width="230" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-14" value="- playerId: int&lt;div&gt;- firstname: string&lt;/div&gt;&lt;div&gt;- lastname: string&lt;/div&gt;&lt;div&gt;- name: string&lt;/div&gt;&lt;div&gt;- lastSeason: int&lt;/div&gt;&lt;div&gt;- currentClubId: int&lt;/div&gt;&lt;div&gt;- playerCode: string&lt;/div&gt;&lt;div&gt;- countryOfBirth: string&lt;/div&gt;&lt;div&gt;- cityOfBirth: string&lt;/div&gt;&lt;div&gt;- countryOfCitizenship: string&lt;/div&gt;&lt;div&gt;- dateOfBirth: date&lt;/div&gt;&lt;div&gt;- subposition: string&lt;/div&gt;&lt;div&gt;- position: string&lt;/div&gt;&lt;div&gt;- foot: string&lt;/div&gt;&lt;div&gt;- heightInCm: float&lt;/div&gt;&lt;div&gt;- marketInValueInEur: float&lt;/div&gt;&lt;div&gt;- highestMarketValueInEur: float&lt;/div&gt;&lt;div&gt;- contractExpirationDate: date&lt;/div&gt;&lt;div&gt;- agentName: string&lt;/div&gt;&lt;div&gt;- imageUrl: string&lt;/div&gt;&lt;div&gt;- url: string&lt;/div&gt;&lt;div&gt;- currentClubDomesticCompetitionId: int&lt;/div&gt;&lt;div&gt;- currentClubName: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-13">
+          <mxGeometry y="26" width="230" height="344" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-13">
+          <mxGeometry y="370" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-13">
+          <mxGeometry y="378" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-17" value="Appearances" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="160" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-18" value="- appearanceId: int&lt;div&gt;-&amp;nbsp;gameId: int&lt;/div&gt;&lt;div&gt;- playerId: int&lt;/div&gt;&lt;div&gt;- playerClubId: int&lt;/div&gt;&lt;div&gt;- playerCurrentClubId: int&lt;/div&gt;&lt;div&gt;- date: date&lt;/div&gt;&lt;div&gt;- playerName: string&lt;/div&gt;&lt;div&gt;- competitionId: int&lt;/div&gt;&lt;div&gt;- yellowCards: int&lt;/div&gt;&lt;div&gt;- redCards: int&lt;/div&gt;&lt;div&gt;- goals: int&lt;/div&gt;&lt;div&gt;- assists: int&lt;/div&gt;&lt;div&gt;- minutesPlayed: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-17">
+          <mxGeometry y="26" width="160" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-17">
+          <mxGeometry y="230" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-20" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-17">
+          <mxGeometry y="238" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-21" value="PlayerValuations" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="220" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-22" value="- playerId: int&lt;div&gt;- lastSeason: int&lt;/div&gt;&lt;div&gt;- datetime: datetime&lt;/div&gt;&lt;div&gt;- date: date&lt;/div&gt;&lt;div&gt;- dateWeek: date&lt;/div&gt;&lt;div&gt;- marketValueInEur: float&lt;/div&gt;&lt;div&gt;- n: int&lt;/div&gt;&lt;div&gt;- currentClubId: int&lt;/div&gt;&lt;div&gt;- playerClubDomesticCompetitionId: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-21">
+          <mxGeometry y="26" width="220" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-21">
+          <mxGeometry y="170" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-24" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-21">
+          <mxGeometry y="178" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-25" value="Games" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="596" width="190" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-26" value="- gameId: int&lt;div&gt;- competitionId: int&lt;/div&gt;&lt;div&gt;- season: int&lt;/div&gt;&lt;div&gt;- rounds: int&lt;/div&gt;&lt;div&gt;- date: date&lt;/div&gt;&lt;div&gt;- homeClubId: int&lt;/div&gt;&lt;div&gt;- awayClubid: int&lt;/div&gt;&lt;div&gt;- homeClubGoals: int&lt;/div&gt;&lt;div&gt;- awayClubGoals: int&lt;/div&gt;&lt;div&gt;- homeClubPosition: string&lt;/div&gt;&lt;div&gt;- awayClubPosition: string&lt;/div&gt;&lt;div&gt;- homeClubManagerName: string&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;awayClubManagerName: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- stadium: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- attendance: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- referee: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- url: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- homeClubFormation: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- away&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ClubFormation: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;homeClubName: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;-&amp;nbsp;&lt;/span&gt;away&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ClubName: string&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;- aggregate: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;- competitionType: string&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-25">
+          <mxGeometry y="26" width="190" height="344" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-25">
+          <mxGeometry y="370" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-25">
+          <mxGeometry y="378" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-29" value="GameEvents" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="510" width="160" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-30" value="- gameEventId: int&lt;div&gt;- dateGameId: int&lt;/div&gt;&lt;div&gt;- minutes: int&lt;/div&gt;&lt;div&gt;- type: string&lt;/div&gt;&lt;div&gt;- clubId: int&lt;/div&gt;&lt;div&gt;- playerId: int&lt;/div&gt;&lt;div&gt;- description: string&lt;/div&gt;&lt;div&gt;- playerInId: int&lt;/div&gt;&lt;div&gt;- playerAssistId: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-29">
+          <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-29">
+          <mxGeometry y="170" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-32" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-29">
+          <mxGeometry y="178" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-33" value="GameLineups" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="160" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-34" value="- gameLineupsId: int&lt;div&gt;- gameId: int&lt;/div&gt;&lt;div&gt;- clubId: int&lt;/div&gt;&lt;div&gt;- type: string&lt;/div&gt;&lt;div&gt;- number: int&lt;/div&gt;&lt;div&gt;- playerId: int&lt;/div&gt;&lt;div&gt;- playerName: string&lt;/div&gt;&lt;div&gt;- teamCaptain: boolean&lt;/div&gt;&lt;div&gt;- position: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-33">
+          <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-33">
+          <mxGeometry y="170" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="t7kktxFV1EuVXR0SUcdT-36" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="t7kktxFV1EuVXR0SUcdT-33">
+          <mxGeometry y="178" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
